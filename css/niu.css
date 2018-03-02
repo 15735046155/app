@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 571543 */
+  src: url('https://at.alicdn.com/t/font_571543_9orhw4nzqcxwp14i.eot');
+  src: url('https://at.alicdn.com/t/font_571543_9orhw4nzqcxwp14i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_571543_9orhw4nzqcxwp14i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_571543_9orhw4nzqcxwp14i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_571543_9orhw4nzqcxwp14i.svg#iconfont') format('svg');
+}
+.shouye{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	overflow-y: scroll;
+	flex-direction: column;
+}
+#shouye::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+.search{
+	width: 100%;
+	height: 1.12rem;
+	padding-top: 0.16rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+}
+.search_add{
+	width: 1.2rem;
+	height: 0.8rem;
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.45rem;
+	color: #5c5c56;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.search_mid{
+	width: 4.78rem;
+	height: 0.8rem;
+	float: left;
+}
+.search_mid p{
+	font-size: 0.3rem;
+	line-height: 0.8rem;
+	font-family: 'iconfont';
+	color: #505044;
+	margin-right: 0.5rem;
+	float: left;
+}
+.lunbo{
+	width: 0.36rem;
+	height: 0.07rem;
+	float: left;
+}
+.lunbo p{
+	width: 0.07rem;
+	height: 0.07rem;
+	border-radius: 50%;
+	background-color: #7c7b7a;
+	margin-right: 0.05rem;
+	float: left;
+	margin-top: 0.4rem;
+}
+.search_car{
+	width: 1.2rem;
+	height: 0.8rem;
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.45rem;
+	color: #5c5c56;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.faian{
+	width: 100%;
+	height: 6.05rem;
+	float: left;
+	margin-top: 1.12rem;
+	padding: 0.9rem 0.4rem 0;
+}
+.faian_item_bottom1{
+	width: 4.4rem;
+	height: 1.5rem;
+	float: left;
+	font-size: 0.36rem;
+	color: #383835;
+	font-weight: 800;
+	padding-top: 0.48rem;
+}
+.faian_item_bottom2{
+	width: 0.9rem;
+	height: 1.5rem;
+	float: left;
+	margin-left: 1.1rem;
+}
+.faian_item_bottom2 img{
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 50%;
+}
+.faian_item_bottom2 p{
+	font-size: 0.2rem;
+	margin-top: 0.25rem;
+	text-align: center;
+	color: #b4b4b0;
+}
+.xiangqing_tu{
+	width: 6.4rem;
+	height: 3.65rem;
+	margin-top: 1.12rem;
+	margin-left: 0.42rem;
+}
+.xiangqing{
+	width: 100%;
+	height: 5.32rem;
+	padding: 0 0.42rem;
+}
+.xiangqing_name{
+	width: 6.36rem;
+	height: 1.8rem;
+	text-align: center;
+	font-size: 0.48rem;
+	color: #383831;
+	border-bottom: 1px solid #eaeae0;
+	line-height: 1.8rem;
+}
+.xiangqing_zuojia{
+	width: 100%;
+	height: 1.7rem;
+}
+.xiangqing_zuojia img{
+	width: 1.54rem;
+	height: 1.54rem;
+	float: left;
+}
+.xiangqing_zuozhe{
+	width: 4.4rem;
+	height: 1.54rem;
+	margin-left: 0.38rem;
+	float: left;
+}
+.xiangqing_zuozhe h1{
+	font-size: 0.3rem;
+	font-weight: normal;
+	margin-top: 0.3rem;
+	color: #383831;
+}
+.xiangqing_zuozhe p{
+	margin-top: 0.2rem;
+	font-size: 0.32rem;
+	color: #383831;
+}
+.xiangqing_duanluo{
+	color: #383831;
+	font-size: 0.32rem;
+}
+.yongliao{
+	width: 100%;
+	height: 12.51rem;
+	padding:0.8rem 0.42rem 0;
+}
+.yongliao_title{
+	width: 100%;
+	height: 0.83rem;
+}
+.yongliao_title h1{
+	font-size: 0.36rem;
+	float: left;
+}
+.yongliao_title p{
+	font-size: 0.36rem;
+	color: #fb7662;
+	margin-left: 3.45rem;
+}
+.yongliao_item{
+	width: 100%;
+	height: 0.98rem;
+	border-bottom: 0.01rem solid #eaeae0;
+	line-height: 0.97rem;
+	color: #383835;
+	font-size: 0.32rem;
+}
+.yongliao_item_left{
+	width: 2.5rem;
+	height: 0.97rem;
+	float: left;
+	font-weight: 700;
+}
+.yongliao_item_right{
+	width: 2rem;
+	height: 0.97rem;
+	margin-left: 1.24rem;
+	float: left;
+}
+.xiangqing_guding{
+	width: 100%;
+	height: 1.13rem;
+	border-top: 0.01rem solid #eaeae0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	padding-left: 0.42rem;
+}
+.xiangqing_guding_item{
+	width: 1.8rem;
+	height: 1.13rem;
+	float: left;
+	padding-top: 0.3rem;
+	margin-right:0.5rem;
+}
+.xiangqing_guding_item_tu{
+	font-family: 'iconfont';
+	font-size: 0.38rem;
+	color: #fa725e;
+	margin-right: 0.26rem;
+	float: left;
+}
+.xiangqing_guding_item_zi{
+	font-size: 0.26rem;
+	float: left;
+	color: #fa725e;
+	margin-top: 0.05rem;
+}
+.xiangqing_guding_item1{
+	color: #383831;
+}
+.xiangqing_guding_item_tu1{
+	font-family: 'iconfont';
+	font-size: 0.38rem;
+	color: #383831;
+	margin-right: 0.26rem;
+	float: left;
+}
+.xiangqing_guding_item_zi1{
+	font-size: 0.26rem;
+	float: left;
+	color: #383831;
+	margin-top: 0.05rem;
+}

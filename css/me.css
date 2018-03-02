@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 571543 */
+  src: url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.eot');
+  src: url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.svg#iconfont') format('svg');
+}
+.shouye{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	overflow-y: scroll;
+	flex-direction: column;
+}
+#shouye::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+.search{
+	width: 100%;
+	height: 0.8rem;
+	margin-top: 0.16rem;
+}
+.search_add{
+	width: 1.2rem;
+	height: 0.8rem;
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.45rem;
+	color: #5c5c56;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.search_mid{
+	width: 4.78rem;
+	height: 0.8rem;
+	float: left;
+}
+.search_mid h1{
+	font-size: 0.32rem;
+	color: #505044;
+	margin-left: 2.24rem;
+	float: left;
+	line-height: 0.8rem;
+	font-weight: normal;
+}
+.search_mid p{
+	font-size: 0.32rem;
+	color: #505044;
+	margin-left: 1.41rem;
+	font-family: 'iconfont';
+	font-weight: 800;
+	line-height: 0.8rem;
+	float: left;
+}
+.search_kuang{
+	width: 4.78rem;
+	height: 0.8rem;
+	float: left;
+	font-family: 'iconfont';
+	border: 0;
+	padding-left: 1.5rem;
+	background-color: #f2f2f0;
+	border-radius: 0.1rem;
+	font-weight: 800;
+	font-size: 0.3rem;
+}
+.search_car{
+	width: 1.2rem;
+	height: 0.8rem;
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.45rem;
+	color: #5c5c56;
+	text-align: center;
+	line-height: 0.8rem;
+	font-weight: 800;
+}
+.dibu{
+	width: 100%;
+	height: 1.14rem;
+	border-top: 0.01rem solid #eaeae0;
+	padding: 0.19rem 0.4rem 0.15rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+}
+.dibu_item{
+	width: 0.65rem;
+	height: 0.8rem;
+	margin-right: 0.78rem;
+	float: left;
+}
+.dibu_item p{
+	font-family: 'iconfont';
+	color: #666;
+	font-size: 0.42rem;
+	text-align: center
+}
+.dibu_item h1{
+	color: #666;
+	font-size: 0.2rem;
+	margin-top: 0.1rem;
+	text-align: center;
+}
+.dibu .dibu_item1{
+	margin-right: 0;
+}
+
+.dibu_item3{
+	color: #fa6650;
+}
+.dibu_item3 p{
+	color: #fa6650;
+}
+.dibu_item3 h1{
+	color: #fa6650;
+}
+.person{
+	width: 100%;
+	height: 3.2rem;
+	padding: 0 .42rem;
+}
+.person_left{
+	width: 3.91rem;
+	height: 3.2rem;
+	float: left;
+}
+.person_left h1{
+	font-size: 0.44rem;
+	color: #383835;
+}
+.person_left_zhong a{
+	display: block;
+	font-size: 0.2rem;
+	color: #f96751;
+	margin-top: 0.54rem;
+}
+.person_left_zhong p{
+	width: 0.06rem;
+	height: 0.06rem;
+	background-color: #5c5c57;
+	border-radius: 50%;
+	margin-left: 0.07rem;
+	margin-top: 0.22rem;
+	float: left;
+}
+.person_left_wenzi{
+	width: 0.54rem;
+	height: 0.75rem;
+	margin-top:1rem;
+	float: left;
+	margin-right: 0.77rem;
+}
+.person_left_shu{
+	font-size: 0.22rem;
+	margin-bottom: 0.12rem;
+}
+.person_left_zi{
+	font-size: 0.22rem;
+	color: #383835;
+}
+.person_right{
+	width:2.45rem;
+	height: 3.2rem;
+	float: left;
+}
+.person_right img{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+}
+.person_right a{
+	font-size: 0.26rem;
+	margin-left: 0.4rem;
+	color: #fa6650;
+}
+.cang{
+	width: 100%;
+	height: 1.8rem;
+	border-top: 0.01rem solid #EDEDE3;
+	border-bottom: 0.01rem solid #EDEDE3;
+	margin-top: 0.3rem;
+	padding: 0.4rem 0.42rem;
+}
+.cang_item{
+	width: 0.98rem;
+	height: 1rem;
+	margin-right: 0.8rem;
+	float: left;
+}
+.cang_item p{
+	font-family: 'iconfont';
+	font-size: 0.38rem;
+	text-align: center;
+	color: #5C5C57;
+}
+.cang_item a{
+	display: block;
+	font-family: 'iconfont';
+	text-align: center;
+	color: #383835;
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+}
+.cang_item1{
+	margin-right: 0;
+}
+.caipu{
+	width: 100%;
+	height: 4.69rem;
+}
+.caipu1{
+	width: 50%;
+	height:1.3rem;
+	text-align: center;
+	border-bottom: 0.04rem solid #fa6650;
+	line-height: 100%;
+	float: left;
+}
+.caipu1 p{
+	font-size: 0.32rem;
+	color: #fa6650;
+}
+.zuopin{
+	width: 50%;
+	height:1.3rem;
+	text-align: center;
+	float: left;
+	line-height: 100%;
+}
+.zuopin p{
+	font-size: 0.32rem;
+	color: #383831;
+}
+.caipu_content{
+	width: 100%;
+	height: 3.39rem;
+	text-align: center;
+	line-height: 3.39rem;
+	float: left;
+	font-size: .32rem;
+}

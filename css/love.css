@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 571543 */
+  src: url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.eot');
+  src: url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_571543_uc9djpjwdfxyldi.svg#iconfont') format('svg');
+}
+.shouye{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	overflow-y: scroll;
+	flex-direction: column;
+	background-color: #FAFAF8;
+}
+#shouye::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+.search{
+	width: 100%;
+	height: 0.96rem;
+	padding-top: 0.16rem;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	left: 0;
+}
+.search_kuang{
+	width: 4.78rem;
+	height: 0.8rem;
+	float: left;
+	font-family: 'iconfont';
+	border: 0;
+	background-color: #f2f2f0;
+	border-radius: 0.1rem;
+	font-size: 0.3rem;
+	margin-left: 1.2rem;
+	text-align: center;
+}
+.dibu{
+	width: 100%;
+	height: 1.14rem;
+	border-top: 0.01rem solid #eaeae0;
+	padding: 0.19rem 0.4rem 0.15rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+}
+.dibu_item{
+	width: 0.65rem;
+	height: 0.8rem;
+	margin-right: 0.78rem;
+	float: left;
+}
+.dibu_item p{
+	font-family: 'iconfont';
+	color: #666;
+	font-size: 0.42rem;
+	text-align: center
+}
+.dibu_item h1{
+	color: #666;
+	font-size: 0.2rem;
+	margin-top: 0.1rem;
+	text-align: center;
+}
+.dibu .dibu_item1{
+	margin-right: 0;
+}
+
+.dibu_item3{
+	color: #fa6650;
+}
+.dibu_item3 p{
+	color: #fa6650;
+}
+.dibu_item3 h1{
+	color: #fa6650;
+}
+.caipu{
+	width: 100%;
+	height:1rem;
+	position: fixed;
+	top: 0.8rem;
+	left: 0;
+	background-color: #fff;
+}
+.caipu1{
+	width: 2.4rem;
+	height:1rem;
+	text-align: center;
+	border-bottom: 0.04rem solid #fa6650;
+	line-height: 100%;
+	float: left;
+}
+.caipu1 p{
+	font-size: 0.32rem;
+	color: #fa6650;
+}
+.zuopin{
+	width: 2.4rem;
+	height:1rem;
+	text-align: center;
+	float: left;
+	line-height: 100%;
+}
+.zuopin p{
+	font-size: 0.32rem;
+	color: #383831;
+}
+.liulan{
+	width: 2.4rem;
+	height:1rem;
+	text-align: center;
+	float: left;
+	line-height: 100%;
+}
+.liulan p{
+	font-size: 0.32rem;
+	color: #383831;
+}
+.caipu_content{
+	width: 100%;
+	height:5.5rem;
+	padding: 0 0.42rem;
+	float: left;
+	margin-top: 1.8rem;
+}
+.caipu_content img{
+	width: 6.4rem;
+	height: 3.65rem;
+	margin-top: 0.42rem;
+}
+.caipu_content p{
+	font-size: 0.34rem;
+	color: #383835;
+	margin-top: 0.3rem;
+}
+.caipu_content h5{
+	font-size: 0.24rem;
+	color: #666;
+	margin-top: 0.1rem;
+	font-weight: normal;
+}
+.caipu_content1{
+	margin-top: 0;
+}
+.caipu_content2{
+	margin-bottom: 1.14rem;
+}
